@@ -1,0 +1,37 @@
+.header-container{
+    align-items: center;
+    min-height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    color: white;
+background-color: black;
+}
+
+.header-wrapper{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.header-item-wrapper{
+    width: 33%;
+}
+
+.center{
+   display: flex;
+   justify-content: center;
+}
+
+@media screen and (max-width:740px) {
+   .left {
+    width: 40%;
+   }
+
+   
+   
+}
+

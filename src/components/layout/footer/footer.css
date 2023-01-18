@@ -1,0 +1,23 @@
+.footer-container{
+    width: 100vw;
+    min-height: 130px;
+    background-color: black;
+    display: flex;
+    color: white;
+}
+
+
+.section{
+    width: 30%;
+    height: 140px;
+    padding-top:60px;
+    margin: 5px 10px;
+    text-align: center;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+}
+

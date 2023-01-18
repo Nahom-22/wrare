@@ -1,0 +1,72 @@
+.home-container {
+  margin-top: 100px;
+  min-height:fit-content;
+  color: white;
+  width: 100vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url("../../assets/pexels-leah-kelley-952594.jpg") center/cover fixed
+      no-repeat;
+    }
+
+.home-wrapper {
+  padding-top: 150px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.welcome-text {
+  text-align: center;
+}
+
+.lower-section {
+  margin-top: 120px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-in{
+    margin: 190px;
+}
+
+.first {
+  display: flex;
+  padding: 30px;
+  clear: both;
+  box-sizing: border-box;
+
+}
+
+.first div {
+  width: 230px;
+  height: 270px;
+  margin: 2px 10px;
+  border-radius: 12px;
+  background: url('../../assets/Saunders-Bravery-of-E.L.-Doctorow.jpg') center/cover;
+}
+.first h4{
+    padding: 5px 10px;
+    width: 190px;
+}
+
+.first h3{
+    margin-top: 20px;
+}
+
+.right-section{
+    margin-left: 240px;
+}
+
+.right-section div{
+    background: url('../../assets/licensed-image.jpeg') center/cover;
+    
+
+}
+
+
+@media  screen and (max-width:740px) {
+    .lower-section{
+        display: block;
+    }
+    
+}

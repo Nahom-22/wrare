@@ -1,0 +1,28 @@
+.author-container{
+    height: 250px;
+    width: 300px;
+   
+    color: black;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 1.3px 1.2px 1.1px 1.2px solid grey;
+}
+
+.author-wrapper{
+    margin-top: 10px;
+    
+}
+
+img {
+    height: 100px;
+    width: 110px;
+    border-radius: 50%;
+}
+
+h3{
+    padding: 10px;
+}
+
+h4{
+    padding: 5px;
+}

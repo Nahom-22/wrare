@@ -1,0 +1,12 @@
+.works{
+    height: calc(fit-content + 400px);
+    text-align: center;
+}
+
+
+.works-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  
+}

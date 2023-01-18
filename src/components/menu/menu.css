@@ -1,0 +1,21 @@
+.menu-container{
+    width: 35%;
+    display: inline;
+}
+
+
+
+@media screen and (min-width:740px) {
+    .bars{
+       display: none
+    }
+  
+}
+
+@media screen and (max-width:740px) {
+   .menu-container{
+    width: 40%;
+   }
+  
+}
+

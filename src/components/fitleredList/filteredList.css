@@ -1,0 +1,12 @@
+*{
+    color: black;
+}
+
+h2{
+    float: left;
+    margin-left: 20px;
+}
+
+ul{
+    clear: both;
+}

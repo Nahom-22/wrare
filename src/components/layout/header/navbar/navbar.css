@@ -1,0 +1,45 @@
+.navbar-container{
+    clear: both;
+    width: 340px;
+    float: right;
+}
+
+.navbar-lists{
+    list-style: none;
+    display: flex;
+    float: right;
+    margin-right: 2px;
+}
+
+li{
+    margin-right: 8px;
+    padding: 0 1px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: .5s ease-in;
+
+}
+
+
+a:hover{
+     border-bottom: 1px solid white;
+     color: rgb(77, 190, 190);
+}
+
+
+@media screen and (max-width:740px) {
+    .navbar-container{
+        position: relative;
+    }
+     .navbar-lists{
+        display: block;
+        width: 0%;
+        margin: 0;
+        ;
+
+     }
+}

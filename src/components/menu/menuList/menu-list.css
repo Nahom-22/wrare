@@ -1,0 +1,15 @@
+.menu-list-container {
+  height: 100vh;
+  background-color: black;
+  width: 40%;
+}
+
+.menu-lists{
+    list-style:none;
+    margin-left: -40px;
+  
+}
+
+li{
+    padding: 10px 0;
+}
